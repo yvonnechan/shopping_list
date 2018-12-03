@@ -1,3 +1,161 @@
+/*MOBILE VIEW STYLES*/
+body{
+
+    font-family: "Trebuchet MS", Helvetica, sans-serif;
+    color: #001f3f;
+    
+}
+#body_list{
+	background-color: #DDDDDD;
+}
+#body_new{
+	background-color: #DDDDDD;
+}
+div{
+}
+#div_list{
+	width: 80%;
+	margin: auto;
+}
+h1{
+    width: 80%;
+    margin: auto;
+    text-align: center;
+    border: 2px #001f3f solid;
+    padding: 10px 0px 10px 0px;
+    border-radius: 5px;
+    background-color: #fff;
+}
+h2{
+	width: 75%;
+    margin: auto;
+    text-align: center;
+    padding: 10px 0px 10px 0px;
+    border-radius: 5px;
+    background-color: #fff;
+
+}
+#h2_edit{
+    color: #94618e;
+    border: 2px #94618e solid;
+}
+#h2_new{
+    color: #b5c62d;
+    border: 2px #b5c62d solid;
+}
+ul{
+    list-style: none;
+    padding-left: 10%;
+}
+
+li{
+    margin: 5px;
+    padding: 5px;
+
+}
+li:hover{
+    background-color: #AAAAAA;
+    padding: 10px;
+    border-radius: 5px;
+}
+li a{
+	text-decoration: none;
+	color: #001f3f;
+	font-weight: bold;
+}
+li a:hover{
+	color: #94618e;
+	text-decoration: underline;
+}
+
+.item_num{
+    margin-left: 5px;
+    font-size: 1em;
+}
+
+.item_desc{
+
+}
+.item_note{
+    margin-left: 25px;
+    font-size: .85em;
+    font: grey;
+    font-style: italic;
+
+}
+#div_butt{
+    margin: auto;
+    text-align: center;
+    padding: 10px;
+}
+.button{
+    color: #fff;
+    text-align: center;
+    text-decoration: none;
+    padding: 10px;
+    border-radius: 5px;
+    display: block;
+	width: 20%;
+	margin: auto;
+	margin-bottom: 10px;
+}
+#butt_add{
+	background-color: #001f3f;
+}
+#butt_add:active{
+	background-color: #b5c62d;
+}
+
+/*new.html*/
+
+#div_form{
+	margin: auto;
+    width: 60%;
+    text-align: center;
+    padding: 10px;
+}
+
+form input {
+	padding: 10px;
+    border-radius: 5px;
+    margin: 10px 0px 10px 0px;
+    display: block;
+}
+
+.item_desc_input, .item_note_input{
+	width: 75%;
+}
+.item_num_input{
+	width: 50%;
+}
+
+#butt_save{
+	background-color: #b5c62d;
+}
+#butt_save:active{
+	background-color: #c1d237;
+}
+
+#butt_can, #butt_del{
+	background-color: #AAAAAA;
+}
+#butt_can:active{
+	background-color: #001f3f;
+}
+
+/*edit.html*/
+#butt_up{
+	background-color: #94618e;
+}
+#butt_up:active{
+	background-color: #9e7099;
+}
+
+#butt_del:active{
+	background-color: #830303;
+}
+
+
 /*
  * This is a manifest file that'll be compiled into application.css, which will include all the files
  * listed below.

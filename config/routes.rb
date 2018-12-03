@@ -1,4 +1,11 @@
 Rails.application.routes.draw do
+    root to: 'list#index'
+    get 'list/new', to: 'list#new'
+    get 'list/create', to: 'list#create'
+    get 'list/edit/', to: 'list#edit'
+    get 'list/update/', to: 'list#update'
+    get 'list/destroy/', to: 'list#destroy'
+  
   # The priority is based upon order of creation: first created -> highest priority.
   # See how all your routes lay out with "rake routes".
 
