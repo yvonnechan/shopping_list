@@ -1,0 +1,15 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  desc: MyString
+  num: MyString
+  note: MyString
+  done: false
+  list_id: 1
+
+two:
+  desc: MyString
+  num: MyString
+  note: MyString
+  done: false
+  list_id: 1
